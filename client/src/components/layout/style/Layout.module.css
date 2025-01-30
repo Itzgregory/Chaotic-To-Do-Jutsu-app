@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .main {
+    flex: 1;
+    width: 100%;
+    padding: 20px 0;
+    min-height: calc(100vh - 130px);
+    background-color: var(--dark-alt);
+  }
+  
+  .footer {
+    width: 100%;
+    margin-top: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      padding: 10px 0;
+    }
+  }
