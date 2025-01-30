@@ -149,40 +149,6 @@ Used in React-Redux. All logic of Redux is here.
 
 **The files inside the folders are not showm in the tree bellow**
 ```
-г Client
-│  ├─ build
-│  ├─ package-lock.json
-│  ├─ package.json
-│  ├─ public
-│  └─ src
-│     ├─ api
-│     │  ├─ todo
-│     │  ├─ user
-│     │  └─ index.js
-│     ├─ App.jsx
-│     ├─ assets
-│     ├─ components
-│     │  ├─ container
-│     │  │  ├─ todo
-│     │  │  ├─ user
-│     │  │  └─ index.js
-│     │  └─ view
-│     │     ├─ login
-│     │     ├─ signup
-│     │     ├─ todopanel
-│     │     └─ index.js
-│     ├─ features
-│     │  ├─ todo
-│     │  ├─ user
-│     │  └─ index.js
-│     ├─ index.css
-│     ├─ index.jsx
-│     ├─ store
-│     └─ utils
-│        ├─ alerts
-│        ├─ helmet
-│        └─ index.js
-└─────────────────────
 
 ```
 
